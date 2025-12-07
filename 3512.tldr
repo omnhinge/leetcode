@@ -50,9 +50,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 490.3552794068266,
-			"y": 336.13504051208497,
-			"lastActivityTimestamp": 1764447256279,
+			"x": -49.16477064200154,
+			"y": 69.7350061187744,
+			"lastActivityTimestamp": 1764488123926,
 			"meta": {}
 		},
 		{
@@ -74,7 +74,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1495.6800537109375,
+				"w": 1795.2000732421875,
 				"h": 570.2400512695312
 			},
 			"insets": [
@@ -92,7 +92,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.0416666269302368,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
@@ -103,12 +103,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:j02vyebphRs6ain1aT5P6",
+			"editingShapeId": "shape:sgMutvCM9qW0H28KHJYJA",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:j02vyebphRs6ain1aT5P6"
+				"shape:sgMutvCM9qW0H28KHJYJA"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:sgMutvCM9qW0H28KHJYJA",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -119,29 +119,23 @@
 		},
 		{
 			"x": 353.9647889525484,
-			"y": -6.000000228881845,
+			"y": 15.600000595092794,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": 317.2799987792969,
-			"y": 219.85502243041992,
+			"x": -182.76477674551717,
+			"y": 44.61501100158688,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:j02vyebphRs6ain1aT5P6",
-			"type": "text",
+			"id": "shape:sgMutvCM9qW0H28KHJYJA",
+			"type": "note",
 			"props": {
 				"color": "black",
-				"size": "m",
-				"w": 222.40000915527344,
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -153,27 +147,29 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "arr = [3,9,7] k = 5"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": " return sum % k;"
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "ovferhtjeropkgjvojdfbnlmdg[jwenesjdngjdfngjasfmjednged"
 								}
 							]
 						}
 					]
-				}
+				},
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 0,
+				"fontSizeAdjustment": 14,
+				"url": "",
+				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "a1SNz7rG",
+			"index": "a1IyjEgV",
 			"typeName": "shape"
 		}
 	]
