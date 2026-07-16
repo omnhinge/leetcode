@@ -37,3 +37,32 @@ class Solution {
     return a;
 }
 }
+// 100% beats
+class Solution {
+    public long gcdSum(int[] nums) {
+        long ans = 0;
+        int pre[] = new int[nums.length];
+        int max = Integer.MIN_VALUE ;
+        for(int i =0;i<nums.length;i++){
+            max = Math.max(max,nums[i]);
+            pre[i] = gcd(max,nums[i]);
+
+        }
+        Arrays.sort(pre);
+        int i =0,j=nums.length-1;
+        while(i<j){
+            ans = ans + gcd(pre[i],pre[j]);
+            i++;
+            j--;
+        }
+        return ans;
+    }
+    public int gcd(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+}
